@@ -1,0 +1,41 @@
+.sidebar{
+  background-color: #261C25;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.sidebar ul{
+  height: 20vh;
+  list-style: none;
+  color: white;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.sidebar ul li{
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.sidebar ul li a{
+  color: rgb(255, 255, 255);
+}
+
+.sidebar ul li:last-child a{
+  color: rgb(119, 118, 121);
+}
+
+.sidebar ul li:last-child a:hover{
+  color: rgb(255, 255, 255);
+}
+
+.sidebar ul li:first-child{
+  background-color: #514951;
+}

@@ -1,0 +1,16 @@
+.channel{
+  padding: 0;
+}
+
+.channel li i{
+  font-size: 15px;
+  color: #c8c7ca;
+}
+
+.channel li a{
+  color: #c8c7ca;
+}
+
+.channel li:nth-child(3) a, .channel li:nth-child(3) i{
+  color: white;
+}

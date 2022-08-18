@@ -1,0 +1,49 @@
+.badges{
+  background-color: #4B3949;
+  width: 200px;
+  padding: 20px 15px;
+}
+
+.badges h1{
+  color: white;
+  font-size: 25px;
+}
+
+.badges h2{
+  color: white;
+  font-size: 16px;
+}
+
+.badges i{
+  font-size: 8px;
+  padding-right: 10px;
+  color: #A59CA4;
+}
+
+.badges ul li.active i{
+  color: #1FE5BD;
+}
+
+.badges ul li{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  color: #c8c7ca;
+  font-weight: 600;
+}
+
+.direct-message{
+  list-style: none;
+  padding: 0;
+}
+
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.heading i{
+  color: white;
+  font-size: 15px;
+}
